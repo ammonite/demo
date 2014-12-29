@@ -1,4 +1,5 @@
 http://interactivepython.org/courselib/static/pythonds/Recursion/recursionsimple.html#lst-recstack
+
 def listsum(numList):
     theSum = 0
     for i in numList:
@@ -43,6 +44,7 @@ def toStr(n,base):
 
 print(toStr(1453,16))
 http://www.cis.upenn.edu/~matuszek/cis554-2012/Pages/recursion-in-python.html
+
 def factorial(n):
     "Computes the factorial of its argument."
     if n == 0:
